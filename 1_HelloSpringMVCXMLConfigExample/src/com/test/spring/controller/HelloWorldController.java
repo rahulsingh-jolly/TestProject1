@@ -17,6 +17,9 @@ public class HelloWorldController {
 		String message = "Spring MVC 5 HelloWorld Example";
 		
 		LOGGER.info("inside of printWelcome again..........");
+		LOGGER.info("inside of printWelcome again..........");
 		return new ModelAndView("welcome", "message", message);
+		
+		
 	}
 }
